@@ -2,22 +2,22 @@
 
 menu:
   主页: /
-  随笔: /tags/随笔/
+  LeetCode: /tags/LeetCode/
 
 # SubNav
 subnav:
-  github: "#"
-  weibo: "#"
-  rss: "#"
-  zhihu: "#"
+  github: "https://github.com/Jassy930"
+  weibo: "http://weibo.jassy.wang"
+  #rss: "#"
+  #zhihu: "#"
   #qq: "#"
   #weixin: "#"
   #jianshu: "#"
   #douban: "#"
   #segmentfault: "#"
-  #bilibili: "#"
+  bilibili: "https://space.bilibili.com/858899"
   #acfun: "#"
-  #mail: "mailto:litten225@qq.com"
+  mail: "mailto:fengw930@163.com"
   #facebook: "#"
   #google: "#"
   #twitter: "#"
@@ -45,17 +45,17 @@ open_in_new: false
 # 打赏type设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
 reward_type: 2
 # 打赏wording
-reward_wording: '谢谢你请我吃糖果'
+reward_wording: '谢谢~~~'
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
-alipay: 
+alipay: /assets/img/alipay.png
 # 微信二维码图片地址
-weixin: 
+weixin: /assets/img/weixin.png
 
 # 目录
 # 目录设定：0-不显示目录； 1-文章对应的md文件里有toc:true属性，才有目录； 2-所有文章均显示目录
 toc: 1
 # 根据自己的习惯来设置，如果你的目录标题习惯有标号，置为true即可隐藏hexo重复的序号；否则置为false
-toc_hide_index: true
+toc_hide_index: false
 # 目录为空时的提示
 toc_empty_wording: '目录，不存在的…'
 
@@ -68,7 +68,7 @@ google_analytics: ''
 favicon: /favicon.png
 
 #你的头像url
-avatar:
+avatar: /assets/img/head.jpg
 
 #是否开启分享
 share_jia: true
@@ -91,11 +91,11 @@ changyan_conf: false
 disqus: false
 
 #5、Gitment
-gitment_owner: false      #你的 GitHub ID
-gitment_repo: ''          #存储评论的 repo
+gitment_owner: 'Jassy930'      #你的 GitHub ID
+gitment_repo: 'https://github.com/Jassy930/Jassy930.github.io.git'          #存储评论的 repo
 gitment_oauth:
-  client_id: ''           #client ID
-  client_secret: ''       #client secret
+  client_id: 'dc552011d11c6d7c99ba'           #client ID
+  client_secret: '885b13a2fd5d07b9d9b1d6cdb9c5c4e49a67ef07'       #client secret
 
 # 样式定制 - 一般不需要修改，除非有很强的定制欲望…
 style:
@@ -116,8 +116,8 @@ slider:
 #  friends: false
 smart_menu:
   innerArchive: '所有文章'
-  friends: '友链'
-  aboutme: '关于我'
+  friends: false #'友链'
+  aboutme: false #'关于我'
 
 friends:
   友情链接1: http://localhost:4000/

@@ -92,10 +92,10 @@ disqus: false
 
 #5、Gitment
 gitment_owner: 'Jassy930'      #你的 GitHub ID
-gitment_repo: 'https://github.com/Jassy930/Jassy930.github.io.git'          #存储评论的 repo
+gitment_repo: 'Jassy930.github.io'          #存储评论的 repo
 gitment_oauth:
-  client_id: 'dc552011d11c6d7c99ba'           #client ID
-  client_secret: '885b13a2fd5d07b9d9b1d6cdb9c5c4e49a67ef07'       #client secret
+  client_id: '5dc1438e00012d02d483'           #client ID
+  client_secret: 'fbd3a9af9bebb027aeeb2d6df3ab4f901c59bb9b'       #client secret
 
 # 样式定制 - 一般不需要修改，除非有很强的定制欲望…
 style:
